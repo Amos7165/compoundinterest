@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    float p, r, t, ci;
+    printf("enter principle value:");
+    scanf("%",p);
+    printf(enter rate values:");
+    scanf(" %f",r);
+    printf(" enter time value:");
+    scanf("%f",t);
+    ci=p*((pow((1+r/100),t) -1));
+    printf(compound interest:%2f"ci);
+   return 0;
+   } 
